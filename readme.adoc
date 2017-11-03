@@ -2,3 +2,16 @@
 
 This repo shows how to create your first gRPC Hello World with Java.
 
+https://grpc.io/[gRPC] allows to define your service using https://developers.google.com/protocol-buffers/[Protocol Buffers], a powerful binary serialization toolset and language. Protocol Buffers are Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data. 
+
+== What are the advantags of protocol buffers?
+
+. Efficient serialization
+. A simple IDL
+. Easy interface updating
+
+== Run
+
+. `mvn compile` generates Java server and client code
+
+Uses https://www.xolstice.org/protobuf-maven-plugin/[Protocol Buffers Plugin] to generate Java source files from `.proto`. files.
